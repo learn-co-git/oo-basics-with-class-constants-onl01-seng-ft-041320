@@ -2,7 +2,7 @@ class Shoe
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
-  BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"].unique
+  BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"].uniq
   def initialize(brand)
     @brand = brand
   end
