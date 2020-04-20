@@ -6,6 +6,9 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
+    if(BRANDS.inlcude?(brand) == false)
+      BRANDS << brand 
+    end 
   end
 
   def cobble
@@ -13,10 +16,4 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   
-  def brands(brand) 
-    
-    
-  end 
-    
-
 end
