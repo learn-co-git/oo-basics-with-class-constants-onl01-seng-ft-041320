@@ -1,5 +1,5 @@
 class Book
-  attr_accessor :author, :page_count, :Genre
+  attr_accessor :author, :page_count, :genre
   attr_reader :title
 
   Genre= ["thiller", "science fiction", "romance"]
